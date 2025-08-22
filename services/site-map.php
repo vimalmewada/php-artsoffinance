@@ -10,17 +10,12 @@ require_once __DIR__ . '/../routes/route.php';
 // List of static pages based on your routes
 $staticPages = [
     '', '/', 'home',
-    'pricing',
     'contact',
     'about-us',
-    'courses',
-    'courses-list',
-    'course-view',
+    'courses','courses-list',
     'teachers',
-    'mentor-profile',
     'gallery',
     'blog',
-    'blog-detail'
 ];
 
 

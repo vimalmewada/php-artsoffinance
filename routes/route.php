@@ -13,8 +13,6 @@ function route($page) {
     }
 
     switch ($page) {
-        case 'pricing':
-            return $viewPath . 'price_and_feature.php';
         case 'contact':
             return $viewPath . 'contact.php';
         case 'about-us':
