@@ -1,5 +1,5 @@
 <?php
-require_once '../public/data/blog-data.php';
+require_once 'public/data/blog-data.php';
 
 class BlogDetailComponent {
     private $blogData;

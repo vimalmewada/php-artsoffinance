@@ -59,7 +59,7 @@ $teamMembers = [
     <!-- end breadcrumb area -->
 
 
-    <?php include('../views/partials/mentor.php') ?>
+    <?php include('views/partials/mentor.php') ?>
 
     <!-- team area start-->
     <section class="portfolio-area style-4 pt--120 pb--120 pt_xs--60 pt_xs--60">

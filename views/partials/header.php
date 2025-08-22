@@ -32,8 +32,8 @@
 
     <?php
 if ($page == 'home' || $_SERVER['REQUEST_URI'] == '/') {
-  include('../views/partials/tradingview.php');
+  include('views/partials/tradingview.php');
 }
 ?>
 
-    <?php include('../views/partials/nav_bar.php') ?>
+    <?php include('views/partials/nav_bar.php') ?>

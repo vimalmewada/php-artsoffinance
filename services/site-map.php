@@ -73,7 +73,7 @@ foreach ($allPages as $page) {
 // Output XML
 // echo $xml->asXML();
 
-// Optional: save to sitemap.xml
-file_put_contents(__DIR__ . '/../public/sitemap.xml', $xml->asXML());
+// Optional: save to sitemap.xml   php-artsoffinance\sitemap.php  D:\projects\php-artsoffinance\services\site-map.php
+file_put_contents(__DIR__ . '/../sitemap.xml', $xml->asXML());
 
 echo "\nSitemap generated successfully!";

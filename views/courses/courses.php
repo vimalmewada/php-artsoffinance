@@ -18,5 +18,5 @@
 </div>
 <!-- end breadcrumb area -->
  <div class="mt--60">
-      <?php include('../views/partials/course_section.php');?>
+      <?php include('views/partials/course_section.php');?>
  </div>

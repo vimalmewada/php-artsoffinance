@@ -1,4 +1,4 @@
-  <?php include('../public/data/mentor-data.php'); ?>
+  <?php include('public/data/mentor-data.php'); ?>
   <section class="portfolio-area style-4 pt--120 pt_xs--60">
         <div class="container">
             <div class="row mb--30" style="justify-content: center;">

@@ -6,7 +6,7 @@
     <!-- ENd Header Area -->
 
     <!-- banner blank space area -->
-  <?php include('../views/partials/slider.php') ?>
+  <?php include('views/partials/slider.php') ?>
     
 <!-- rts about us section start -->
 <div class="rts-about-area rts-section-gap bg-about-sm-shape">
@@ -114,7 +114,7 @@
 <!-- rts service post area  Start-->
 <!-- <app-course-section></app-course-section> -->
 
-<?php include('../views/partials/course_section.php') ?>
+<?php include('views/partials/course_section.php') ?>
 <!-- rts service post area ENd -->
 
 
@@ -197,7 +197,7 @@
 
 <!-- start client feed back section -->
 <!-- <app-review></app-review> -->
- <?php include('../views/partials/review.php') ?>
+ <?php include('views/partials/review.php') ?>
 <!-- start client feed back section End -->
 
 <!-- contact area start -->

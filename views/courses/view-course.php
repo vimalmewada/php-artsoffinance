@@ -1,6 +1,6 @@
 <?php
 // Simulate course data - in a real application, this would come from a database
-require_once '../public/data/course-data.php';
+require_once 'public/data/course-data.php';
 // Get course ID and section from URL parameters
 $courseId = isset($_GET['id']) ? intval($_GET['id']) : null;
 $sectionName = isset($_GET['sectionName']) ? $_GET['sectionName'] : null;

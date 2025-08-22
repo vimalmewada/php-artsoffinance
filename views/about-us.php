@@ -83,7 +83,7 @@
 </div>
 <!-- rts faq section area End -->
  <div class="mb--90">
-     <?php include('../views/partials/mentor.php') ?>
+     <?php include('views/partials/mentor.php') ?>
  </div>
 
  <div class="rts-contact-form-area mb--50">

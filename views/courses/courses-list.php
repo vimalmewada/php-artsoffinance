@@ -1,6 +1,6 @@
 <?php
 // Get the section name from URL parameter
-require_once '../public/data/course-data.php';
+require_once 'public/data/course-data.php';
 $sectionName = isset($_GET['sectionName']) ? $_GET['sectionName'] : '';
 
 // Get courses for the section

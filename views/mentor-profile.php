@@ -1,6 +1,6 @@
 <?php
 // mentor-profile.php
-include '../public/data/mentor-data.php'; // Include the data file
+include 'public/data/mentor-data.php'; // Include the data file
 
 // Get the mentor ID from the URL parameter
 $mentorId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
