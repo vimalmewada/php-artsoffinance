@@ -5,12 +5,12 @@ function route($page) {
     $viewPath = __DIR__ . '/../views/';
       $controllerPath = __DIR__ . '/../server/controllers/';
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        switch ($page) {
-            case 'submit-contact':
-                return $controllerPath . 'MailerController.php';
-        }
-    }
+    // if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    //     switch ($page) {
+    //         case 'submit-contact':
+    //             return $controllerPath . 'MailerController.php';
+    //     }
+    // }
 
     switch ($page) {
         case 'contact':

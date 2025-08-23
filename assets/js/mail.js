@@ -1,28 +1,53 @@
+function showPopup(type, message) {
+    let iconDiv = document.getElementById("popup-icon");
+    let msgDiv = document.getElementById("popup-message");
 
+    // Reset
+    iconDiv.className = "";
+    msgDiv.textContent = message;
+
+    if (type === "loading") {
+        iconDiv.classList.add("spinner");
+    } else if (type === "success") {
+        iconDiv.classList.add("checkmark");
+    } else if (type === "error") {
+        iconDiv.classList.add("crossmark");
+    }
+
+    let popup = document.getElementById("popup-modal");
+    popup.style.display = "flex";
+
+    // Auto close after 2.5s (except loading)
+    if (type !== "loading") {
+        setTimeout(() => {
+            popup.style.display = "none";
+        }, 2500);
+    }
+}
+
+// Example with form
 document.getElementById("contact-form").addEventListener("submit", function (e) {
-    e.preventDefault(); // prevent page reload
-
+    e.preventDefault();
     let form = this;
     let formData = new FormData(form);
 
-    fetch("/submit-contact", {
+    showPopup("loading", "Sending...");
+
+    fetch("/api/submit-contact", {
         method: "POST",
         body: formData
     })
-        .then(response => response.json())
+        .then(res => res.json())
         .then(data => {
-            let msgDiv = document.getElementById("form-message");
-            msgDiv.innerHTML = data.message;
-            msgDiv.style.color = data.success ? "green" : "red";
-
             if (data.success) {
-                form.reset(); // clear form if success
+                showPopup("success", "Message sent successfully!");
+                form.reset();
+            } else {
+                showPopup("error", data.message || "Something went wrong.");
             }
         })
-        .catch(error => {
-            document.getElementById("form-message").innerHTML = "Error: " + error;
+        .catch(() => {
+            showPopup("error", "Something went wrong. Please try again.");
         });
 });
-
-
-
+    

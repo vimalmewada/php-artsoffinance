@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: application/json');
-require_once '../services/MailService.php';
+
+require_once __DIR__ . '/../../services/MailService.php';
 
 $response = ["success" => false, "message" => "Something went wrong."];
 
@@ -18,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p><strong>Message:</strong><br>{$message}</p>
     ";
 
-    if ($mailService->sendMail($email, $name, $subject, $body)) {
+    if ($mailService->sendMail($subject, $body)) {
         $response = [
             "success" => true,
             "message" => "Message sent successfully!"

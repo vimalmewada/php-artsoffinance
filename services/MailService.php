@@ -1,13 +1,11 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+require_once __DIR__ . '/../public/vendor/autoload.php';
+
 
 //Load Composer's autoloader
-require_once __DIR__ . '/../public/PHPmailer/Exception.php';
-require_once __DIR__ . '/../public/PHPmailer/PHPMailer.php';
-require_once __DIR__ . '/../public/PHPmailer/SMTP.php';
-
 
 class MailService {
     private $mailer;
@@ -27,7 +25,7 @@ class MailService {
             $this->mailer->Port       = 587;
 
             // Default "From"
-            $this->mailer->setFrom('vimalmewada91@gmail.com', 'Website Builder');
+            $this->mailer->setFrom('vimalmewada91@gmail.com', 'New Enquiry!');
         } catch (Exception $e) {
             error_log("Mailer setup error: " . $e->getMessage());
         }
