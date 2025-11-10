@@ -9,7 +9,7 @@ require_once __DIR__ . '/../public/vendor/autoload.php';
 
 class MailService {
     private $mailer;
-    private $toEmail = "vimalmewada.vm@gmail.com"; 
+    private $toEmail = "contact.us@artsoffinance.in"; 
 
     public function __construct() {
         $this->mailer = new PHPMailer(true);
@@ -31,13 +31,13 @@ class MailService {
         }
     }
 
-    public function sendMail($subject, $body) {
+    public function sendMail($mobileNumber, $body) {
         try {
             $this->mailer->clearAddresses();
             $this->mailer->addAddress($this->toEmail);
 
             $this->mailer->isHTML(true);
-            $this->mailer->Subject = $subject;
+            $this->mailer->Subject = "enquiry";
             $this->mailer->Body    = $body;
             $this->mailer->AltBody = strip_tags($body);
 

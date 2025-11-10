@@ -8,16 +8,41 @@ $response = ["success" => false, "message" => "Something went wrong."];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name    = htmlspecialchars(trim($_POST['name']));
     $email   = htmlspecialchars(trim($_POST['email']));
-    $subject = !empty($_POST['subject']) ? htmlspecialchars(trim($_POST['subject'])) : "New Contact Form Message";
+    $mobileNumber = !empty($_POST['mobileNumber']) ? htmlspecialchars(trim($_POST['mobileNumber'])) : "No contact";
     $message = htmlspecialchars(trim($_POST['message']));
     $mailService = new MailService();
+    
+$body = '
+    <div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; padding: 20px; border-radius: 6px;">
+        <h2 style="color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 10px;">📩 New Enquiry!!</h2>
+        
+        <p style="margin: 15px 0;">
+            <strong>Name:</strong><br>
+            <span style="color: #555;">' . $name . '</span>
+        </p>
+        
+        <p style="margin: 15px 0;">
+            <strong>Email:</strong><br>
+            <span style="color: #555;">' . $email . '</span>
+        </p>
 
-    $body = "
-        <h3>New Contact Form Message</h3>
-        <p><strong>Name:</strong> {$name}</p>
-        <p><strong>Email:</strong> {$email}</p>
-        <p><strong>Message:</strong><br>{$message}</p>
-    ";
+        <p style="margin: 15px 0;">
+            <strong>Mobile Number:</strong><br>
+            <span style="color: #555;">' . $mobileNumber . '</span>
+        </p>
+        
+        <p style="margin: 15px 0;">
+            <strong>Message:</strong><br>
+            <div style="background-color: #f9f9f9; padding: 15px; border-left: 4px solid #3498db; border-radius: 4px; color: #444;">
+                ' . nl2br($message) . '
+            </div>
+        </p>
+        
+        <p style="font-size: 12px; color: #999; margin-top: 30px; text-align: center;">
+            This message was sent from your website contact form.
+        </p>
+    </div>
+';
 
     if ($mailService->sendMail($subject, $body)) {
         $response = [

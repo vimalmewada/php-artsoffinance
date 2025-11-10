@@ -2,87 +2,76 @@
 // config/meta.php
 
 return [
+
     'default' => [
-        'title' => 'Artsoffinance | Share Market Classes in Bhopal - Offline & Online',
-        'description' => 'Join Artsoffinance, Bhopal’s leading institute for share market training. Learn trading, investing, and technical analysis with expert mentors.',
-        'keywords' => 'share market classes in Bhopal, stock market training, trading institute, technical analysis course, online trading course',
-    ],
-
-    'landing' => [
-        'title' => 'Share Market Classes in Bhopal | Artsoffinance - Online & Offline',
-        'description' => 'Master the stock market with Bhopal’s top share market classes. Learn in offline or online mode with expert mentors at Artsoffinance.',
-        'keywords' => 'stock market classes Bhopal, online trading course, offline share market institute, Artsoffinance Bhopal, NISM, trading course',
-    ],
-
-    'home' => [
         'title' => 'Best Share Market Classes in Bhopal | Artsoffinance',
-        'description' => 'Join our share market institute in Bhopal for expert-led classes. Offline & online trading courses for all levels.',
-        'keywords' => 'share market coaching Bhopal, online trading class, best stock market course',
+        'description' => 'Master stock trading with Artsoffinance’s top courses in Bhopal. Learn online or offline with expert mentors and practical insights.',
+        'keywords' => 'stock market classes Bhopal, online trading course Bhopal, share market training, Artsoffinance Bhopal, technical analysis, NISM certification',
     ],
 
     'about-us' => [
-        'title' => 'About Artsoffinance | Best Share Market Institute in Bhopal',
-        'description' => 'Artsoffinance is a trusted name for share market education in Bhopal. Learn about our experienced mentors, offline & online programs, and student success stories.',
-        'keywords' => 'about Artsoffinance, share market trainers, stock market mentor Bhopal, stock trading institute',
+        'title' => 'About Artsoffinance | Bhopal’s Top Trading Institute',
+        'description' => 'Discover Artsoffinance, Bhopal’s leading share market institute with SEBI registered mentors and proven trading strategies.',
+        'keywords' => 'Artsoffinance Bhopal, share market trainers Bhopal, SEBI registered mentors, stock trading institute Bhopal',
     ],
 
     'contact' => [
-        'title' => 'Contact Artsoffinance | Enroll in Bhopal’s Best Trading Classes',
-        'description' => 'Want to join our share market courses? Contact Artsoffinance in Bhopal for course details, timings, and admissions. Online and offline batches available.',
-        'keywords' => 'contact share market classes Bhopal, trading classes inquiry, Artsoffinance contact',
+        'title' => 'Contact Artsoffinance | Trading Classes in Bhopal',
+        'description' => 'Enroll in Bhopal’s best share market courses. Contact Artsoffinance for course details and free demo classes in Bhopal.',
+        'keywords' => 'contact share market classes Bhopal, trading course inquiry, Artsoffinance contact, free demo trading class Bhopal',
     ],
 
     'blog' => [
-        'title' => 'Share Market Blog | Trading Tips & Investment Advice',
-        'description' => 'Read the latest blogs on stock trading, investing, market news, and strategies to grow your trading skills.',
-        'keywords' => 'stock market blog, trading advice, investing tips, share market news Bhopal',
+        'title' => 'Share Market Blog | Trading Tips in Bhopal',
+        'description' => 'Explore expert trading tips, market insights, and investment strategies from Artsoffinance’s Bhopal-based blog.',
+        'keywords' => 'stock market blog Bhopal, trading tips, share market news, investment strategies Bhopal',
     ],
 
     'blog-detail' => [
-        'title' => 'Stock Market Tips & Insights | Artsoffinance Blog',
-        'description' => 'Stay updated with expert stock market tips, trading strategies, and investment advice. Read our blog and grow your financial knowledge.',
-        'keywords' => 'stock market tips, trading blog, investment strategies, Artsoffinance blog',
+        'title' => 'Stock Market Insights | Artsoffinance Bhopal Blog',
+        'description' => 'Get expert stock market tips and trading strategies from Artsoffinance’s blog to boost your skills in Bhopal.',
+        'keywords' => 'stock market tips Bhopal, trading strategies, investment advice, Artsoffinance blog',
     ],
 
     'courses' => [
-        'title' => 'Share Market Courses in Bhopal | Beginner to Advanced',
-        'description' => 'Explore a variety of trading and investment courses at Artsoffinance, Bhopal. Learn online or offline with practical, mentor-led sessions.',
-        'keywords' => 'trading classes Bhopal, investing courses, beginner share market course, technical analysis',
+        'title' => 'Share Market Courses in Bhopal | Artsoffinance',
+        'description' => 'Join Artsoffinance’s share market courses in Bhopal. Beginner to advanced training with practical, mentor-led sessions.',
+        'keywords' => 'share market courses Bhopal, stock trading classes, technical analysis course Bhopal, cryptocurrency trading course',
     ],
 
     'courses-list' => [
-        'title' => 'All Share Market Courses in Bhopal | Artsoffinance',
-        'description' => 'Browse all available stock market and trading courses offered by Artsoffinance in Bhopal. Choose from beginner to advanced levels.',
-        'keywords' => 'share market courses Bhopal, stock market syllabus, trading programs, stock courses',
+        'title' => 'All Trading Courses in Bhopal | Artsoffinance',
+        'description' => 'Browse Artsoffinance’s stock market courses in Bhopal. Choose beginner, advanced, or placement-focused training.',
+        'keywords' => 'stock market courses Bhopal, trading programs Bhopal, share market syllabus, stock trading certification',
     ],
 
     'course-view' => [
-        'title' => 'Course Details | Share Market Training in Bhopal - Artsoffinance',
-        'description' => 'Explore our detailed share market training programs. From beginner to advanced – choose online or offline mode as per your convenience.',
-        'keywords' => 'share market course Bhopal, trading course syllabus, technical analysis course, stock market certification',
+        'title' => 'Share Market Course Details | Artsoffinance Bhopal',
+        'description' => 'Explore Artsoffinance’s share market courses in Bhopal. Learn trading with SEBI mentors, online or offline.',
+        'keywords' => 'share market course Bhopal, trading course details, technical analysis training Bhopal, stock market certification Bhopal',
     ],
 
     'teachers' => [
-        'title' => 'Our Share Market Mentors | Artsoffinance Bhopal',
-        'description' => 'Meet our experienced mentors and trading experts who will guide you through the share market world. Offline and online guidance.',
-        'keywords' => 'stock market mentors Bhopal, trading teachers, financial trainer, share market expert',
+        'title' => 'Our Trading Mentors | Artsoffinance Bhopal',
+        'description' => 'Meet Artsoffinance’s SEBI registered mentors in Bhopal, guiding you with expert stock trading strategies.',
+        'keywords' => 'stock market mentors Bhopal, SEBI registered trainers, trading coaches Bhopal, share market experts',
     ],
 
     'mentor-profile' => [
-        'title' => 'Mentor Profile | Stock Market Experts in Bhopal',
-        'description' => 'Learn more about our mentor’s experience, qualifications, and expertise in stock trading and investment strategies.',
-        'keywords' => 'share market trainer Bhopal, trading coach, financial expert profile, Artsoffinance mentor',
+        'title' => 'Mentor Profile | Trading Experts in Bhopal',
+        'description' => 'Learn about Artsoffinance’s expert mentors in Bhopal, offering SEBI-backed guidance for stock trading success.',
+        'keywords' => 'share market trainer Bhopal, trading coach profile, SEBI registered mentor, Artsoffinance Bhopal',
     ],
 
     'gallery' => [
-        'title' => 'Training Gallery | Artsoffinance Bhopal - Events & Classes',
-        'description' => 'View photos of our live trading sessions, classroom training, seminars, and student success stories.',
-        'keywords' => 'share market class photos, trading workshops Bhopal, training sessions, student gallery',
+        'title' => 'Artsoffinance Gallery | Trading Classes Bhopal',
+        'description' => 'View photos of Artsoffinance’s trading classes, workshops, and success stories in Bhopal.',
+        'keywords' => 'share market class photos Bhopal, trading workshops, stock market training Bhopal, Artsoffinance gallery',
     ],
 
     'pricing' => [
-        'title' => 'Course Fees | Artsoffinance Share Market Training Bhopal',
-        'description' => 'Check pricing for all share market courses including online and offline training programs in Bhopal.',
-        'keywords' => 'stock market course fees Bhopal, trading class price, share market training cost',
+        'title' => 'Share Market Course Fees | Artsoffinance Bhopal',
+        'description' => 'Discover affordable course fees for Artsoffinance’s share market training in Bhopal. Online and offline options.',
+        'keywords' => 'stock market course fees Bhopal, trading class price, share market training cost, Artsoffinance pricing',
     ],
 ];

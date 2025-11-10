@@ -217,18 +217,10 @@
                             Make An Demo
                         </p>
                         <h2 class="title">Request a free demo</h2>
-                    </div>
-                    <div id="form-message"></div>
-                    <form id="contact-form" 
-                        method="post">
-                        <div class="name-email">
-                            <input type="text" placeholder="Your Name" name="name" required>
-                            <input type="email" placeholder="Email Address" name="email" required>
-                        </div>
-                        <input type="text" placeholder="Business Topic" name="subject">
-                        <textarea placeholder="Type Your Message" name="message"></textarea>
-                        <button type="submit" class="rts-btn btn-primary">Submit Message</button>
-                    </form>
+		    </div>
+		
+			<?php include('views/partials/contact.php') ?>	
+		
                 </div>
             </div>
         </div>

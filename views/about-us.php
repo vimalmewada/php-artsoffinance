@@ -82,8 +82,27 @@
     </div>
 </div>
 <!-- rts faq section area End -->
+
  <div class="mb--90">
      <?php include('views/partials/mentor.php') ?>
  </div>
 
- <?php include('views/partials/contact.php') ?>
+<div class="rts-contact-form-area mb--50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="rts-contact-fluid">
+                    <div class="rts-title-area contact-fluid text-center mb--50">
+                        <p class="pre-title">
+                            Get In Touch
+                        </p>
+                        <h2 class="title">Needs Help? Let’s Get in Touch</h2>
+                    </div>
+                    <div class="form-wrapper">
+                        <?php include('views/partials/contact.php') ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
