@@ -52,8 +52,7 @@
                         <img src="assets/images/footer/under-title.png" alt="finbiz_footer">
                     </div>
                     <div class="contact-details">
-                        <p><i class="fal fa-map-marker-alt"></i> Plot No.12C, Near By Pragati Petrol Pump, M.P. Nagar
-                            Zone 2 Bhopal,Madhya Pradesh</p>
+                        <p><i class="fal fa-map-marker-alt"></i> Zone 2, 36A, above Oneplus Service Center, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011</p>
                         <p><i class="fal fa-phone"></i> +91-7610714365</p>
                         <p><i class="fal fa-envelope"></i> contact.us@artsoffinance.in</p>
                         <!-- <app-map-locator></app-map-locator> -->

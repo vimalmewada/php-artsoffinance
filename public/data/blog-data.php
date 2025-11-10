@@ -665,7 +665,7 @@ class BlogData {
                 [
                     "type"=> "paragraph",
                     "class"=> "para-1",
-                    "text"=> "Visit Arts Of Finance today and begin your journey to professional trading success—all here in Bhopal.\nVisit Us=> Plot No.12C, Near By Pragati Petrol Pump, M.P. Nagar Zone 2 Bhopal,Madhya Pradesh.\nOr contact us=> 91-7610714365"
+                    "text"=> "Visit Arts Of Finance today and begin your journey to professional trading success—all here in Bhopal.\nVisit Us=> Zone 2, 36A, above Oneplus Service Center, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011.\nOr contact us=> 91-7610714365"
                 ]
             ],
             "tags"=> [

@@ -106,9 +106,7 @@
                     <!-- single -->
                     <div class="single">
                         <i class="fas fa-map-marker-alt"></i>
-                        <a  > Plot No. 12C,
-                            Near By <br> Pragati Petrol Pump, M.P. Nagar Zone 2 <br>
-                            Bhopal, Madhya Pradesh</a>
+                        <a >Zone 2, 36A, above Oneplus Service Center, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011</a>
                     </div>
                     <!-- single ENd -->
                 </div>

@@ -69,8 +69,7 @@
                             <div class="info">
                                 <span>Address</span>
                                 <a href="#">
-                                    <h5>Plot No.12C, Near By Pragati Petrol Pump,
-                                        M.P. Nagar Zone 2 Bhopal,Madhya Pradesh</h5>
+                                    <h5>Zone 2, 36A, above Oneplus Service Center, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011</h5>
                                 </a>
                              
                             </div>
