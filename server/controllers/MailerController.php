@@ -8,7 +8,7 @@ $response = ["success" => false, "message" => "Something went wrong."];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name    = htmlspecialchars(trim($_POST['name']));
     $email   = htmlspecialchars(trim($_POST['email']));
-    $mobileNumber = !empty($_POST['mobileNumber']) ? htmlspecialchars(trim($_POST['mobileNumber'])) : "No contact";
+    $mobileNumber = !empty($_POST['mobileNumber']) ? htmlspecialchars(trim($_POST['mobileNumber'])) : "New Contact Form Message";
     $message = htmlspecialchars(trim($_POST['message']));
     $mailService = new MailService();
     

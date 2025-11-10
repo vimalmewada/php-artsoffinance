@@ -20,9 +20,11 @@
 #popup-modal {
     display: none;
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.35);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
     z-index: 9999;
     justify-content: center;
     align-items: center;
@@ -36,14 +38,21 @@
     text-align: center;
     max-width: 320px;
     width: 90%;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     animation: popIn 0.35s ease;
 }
 
 /* Animation */
 @keyframes popIn {
-    from { opacity: 0; transform: scale(0.7) translateY(20px); }
-    to { opacity: 1; transform: scale(1) translateY(0); }
+    from {
+        opacity: 0;
+        transform: scale(0.7) translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
 }
 
 /* Spinner (Loading) */
@@ -56,8 +65,11 @@
     margin: 0 auto 12px;
     animation: spin 1s linear infinite;
 }
+
 @keyframes spin {
-    100% { transform: rotate(360deg); }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* Success Check */
@@ -69,6 +81,7 @@
     position: relative;
     margin: 0 auto 12px;
 }
+
 .checkmark::after {
     content: "";
     position: absolute;
@@ -90,16 +103,23 @@
     position: relative;
     margin: 0 auto 12px;
 }
-.crossmark::before, .crossmark::after {
+
+.crossmark::before,
+.crossmark::after {
     content: "";
     position: absolute;
-    top: 12px; left: 12px;
+    top: 12px;
+    left: 12px;
     width: 20px;
     height: 4px;
     background: #fff;
 }
-.crossmark::before { transform: rotate(45deg); }
-.crossmark::after { transform: rotate(-45deg); }
 
+.crossmark::before {
+    transform: rotate(45deg);
+}
 
+.crossmark::after {
+    transform: rotate(-45deg);
+}
 </style>
