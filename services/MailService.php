@@ -37,7 +37,7 @@ class MailService {
             $this->mailer->addAddress($this->toEmail);
 
             $this->mailer->isHTML(true);
-            $this->mailer->Subject = $subject;
+            $this->mailer->Subject = "";
             $this->mailer->Body    = $body;
             $this->mailer->AltBody = strip_tags($body);
 
